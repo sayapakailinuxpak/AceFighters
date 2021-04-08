@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Ace Fighters</string>
+    <string name="about">About</string>
+    <string name="multirole">Multirole</string>
+    <string name="air_craft">Air Craft</string>
+    <string name="eldis_simone">Eldis Simone</string>
+    <string name="android_developer">Android Developer</string>
+    <string name="simple_separator">Simple Separator</string>
+    <string name="eldisstti_gmail_com">eldisstti@gmail.com</string>
+    <string name="follow_me">Follow Me:</string>
+    <string name="follow_author_instagram_account">Follow Author Instagram account</string>
+    <string name="follow_author_github_account">Follow Author Github account</string>
+    <string name="v1_0_0">v1.0.0</string>
+    <string name="flanker">Flanker</string>
+    <string name="sukhoi_su_30sm">Sukhoi SU-30SM</string>
+    <string name="the_sukhoi_su_30_russian_30_nato_reporting_name_flanker_c_g_h_is_a_twin_engine_two_seat_supermaneuverable_fighter_aircraft_developed_in_the_soviet_union_by_russia_s_sukhoi_aviation_corporation_it_is_a_multirole_fighter_for_all_weather_air_to_air_and_air_to_surface_deep_interdiction_missions">The Sukhoi Su-30 (Russian: Сухой Су-30; NATO reporting name: Flanker-C/G/H) is a twin-engine, two-seat supermaneuverable fighter aircraft developed in the Soviet Union by Russia\'s Sukhoi Aviation Corporation. It is a multirole fighter for all-weather, air-to-air and air-to-surface deep interdiction missions.</string>
+
+    <string-array name="air_craft_photo_link">
+        <item>https://upload.wikimedia.org/wikipedia/commons/7/76/Sukhoi_Su-30SM_in_flight_2014.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/5/56/Aviamix2015-03_%28cropped%29.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/e/e3/Saab_JAS_39_Gripen_at_Kaivopuisto_Air_Show%2C_June_2017_%28altered%29_copy.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/e/e6/F-15%2C_71st_Fighter_Squadron%2C_in_flight.JPG</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/7/76/MAKS2015part1-10_%28cropped%29.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/c/cd/A-10_-_32156159151.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/c/c9/F-16_June_2008.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/1/1e/F-22_Raptor_edit1_%28cropped%29.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/7/7d/Russian_Air_Force_MiG-31_inflight_Pichugin.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/1/1a/Soukho%C3%AF_Su-37.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/6/61/F-35A_flight_%28cropped%29.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/6/64/Rafale_-_RIAT_2009_%283751416421%29.jpg</item>
+    </string-array>
+
+    <string-array name="air_craft_name">
+        <item>Sukhoi SU-30</item>
+        <item>Mikoyan MiG-29</item>
+        <item>Saab JAS 39</item>
+        <item>McDonnell Douglas F-15</item>
+        <item>Sukhoi SU-34</item>
+        <item>Fairchild Republic A-10</item>
+        <item>Lockheed Martin F-16</item>
+        <item>Lockheed Martin F-22</item>
+        <item>Mikoyan MiG-31</item>
+        <item>Sukhoi SU-37</item>
+        <item>Lockheed Martin F-35</item>
+        <item>Dassault Rafale</item>
+    </string-array>
+
+    <string-array name="air_craft_codename">
+        <item>Flanker-C/G/H</item>
+        <item>Fulcrum</item>
+        <item>Gripen</item>
+        <item>Eagle</item>
+        <item>Fullback</item>
+        <item>Thunderbolt II</item>
+        <item>Fighting Falcon</item>
+        <item>Raptor</item>
+        <item>Foxhound</item>
+        <item>Terminator</item>
+        <item>Lightning II</item>
+        <item>Rafale</item>
+    </string-array>
+
+    <string-array name="air_craft_description">
+        <item>The Sukhoi Su-30 (Russian: Сухой Су-30; NATO reporting name: Flanker-C/G/H) is a twin-engine, two-seat supermaneuverable fighter aircraft developed in the Soviet Union by Russia\'s Sukhoi Aviation Corporation. It is a multirole fighter for all-weather, air-to-air and air-to-surface deep interdiction missions. </item>
+        <item>The Mikoyan MiG-29 (Russian: Микоян МиГ-29; NATO reporting name: Fulcrum) is a twin-engine jet fighter aircraft designed in the Soviet Union. Developed by the Mikoyan design bureau as an air superiority fighter during the 1970s, the MiG-29, along with the larger Sukhoi Su-27, was developed to counter new U.S. fighters such as the McDonnell Douglas F-15 Eagle and the General Dynamics F-16 Fighting Falcon.The MiG-29 entered service with the Soviet Air Forces in 1982. </item>
+        <item>The Saab JAS 39 Gripen is a light single-engine multirole fighter aircraft manufactured by the Swedish aerospace company Saab AB. The Gripen has a delta wing and canard configuration with relaxed stability design and fly-by-wire flight controls. Various versions have been built, grouped as A-, C- and E-series. </item>
+        <item>The McDonnell Douglas F-15 Eagle is an American twin-engine, all-weather tactical fighter aircraft designed by McDonnell Douglas (now part of Boeing). Following reviews of proposals, the United States Air Force selected McDonnell Douglas\'s design in 1967 to meet the service\'s need for a dedicated air superiority fighter. The Eagle first flew in July 1972, and entered service in 1976. It is among the most successful modern fighters, with over 100 victories and no losses in aerial combat. </item>
+        <item>The Sukhoi Su-34 (Russian: Сухой Су-34; NATO reporting name: Fullback) is a Soviet-origin Russian twin-engine, twin-seat, all-weather supersonic medium-range fighter-bomber/strike aircraft.It first flew in 1990, intended for the Soviet Air Forces, and it entered service in 2014 with the Russian Air Force. </item>
+        <item>The Fairchild Republic A-10 Thunderbolt II is a single-seat, twin turbofan engine, straight wing jet aircraft developed by Fairchild-Republic for the United States Air Force (USAF). It is commonly referred to by the nicknames \"Warthog\" or \"Hog\", although the A-10\'s official name comes from the Republic P-47 Thunderbolt, a World War II fighter-bomber effective at attacking ground targets. The A-10 was designed for close air support (CAS) of friendly ground troops, attacking armored vehicles and tanks, and providing quick-action support against enemy ground forces. It entered service in 1976 and is the only production-built aircraft that has served in the USAF that was designed solely for CAS. Its secondary mission is to provide forward air controller-airborne support, by directing other aircraft in attacks on ground targets. Aircraft used primarily in this role are designated OA-10. </item>
+        <item>The General Dynamics F-16 Fighting Falcon is a single-engine multirole fighter aircraft originally developed by General Dynamics for the United States Air Force (USAF). Designed as an air superiority day fighter, it evolved into a successful all-weather multirole aircraft. Over 4,600 aircraft have been built since production was approved in 1976. Although no longer being purchased by the U.S. Air Force, improved versions are being built for export customers. In 1993, General Dynamics sold its aircraft manufacturing business to the Lockheed Corporation, which in turn became part of Lockheed Martin after a 1995 merger with Martin Marietta. </item>
+        <item>The Lockheed Martin F-22 Raptor is an American single-seat, twin-engine, all-weather stealth tactical fighter aircraft developed exclusively for the United States Air Force (USAF). The result of the USAF\'s Advanced Tactical Fighter (ATF) program, the aircraft was designed primarily as an air superiority fighter, but also has ground attack, electronic warfare, and signal intelligence capabilities. The prime contractor, Lockheed Martin, built most of the F-22\'s airframe and weapons systems and conducted final assembly, while Boeing provided the wings, aft fuselage, avionics integration, and training systems. </item>
+        <item>The Mikoyan MiG-31 (Russian: Микоян МиГ-31; NATO reporting name: Foxhound) is a supersonic interceptor aircraft that was developed for use by the Soviet Air Forces. The aircraft was designed by the Mikoyan design bureau as a replacement for the earlier MiG-25 \"Foxbat\"; the MiG-31 is based on and shares design elements with the MiG-25. The MiG-31 is among the fastest combat jets in the world. It continues to be operated by the Russian Air Force and the Kazakhstan Air Force following the end of the Cold War and the collapse of the Soviet Union in 1991. The Russian Defence Ministry expects the MiG-31 to remain in service until 2030 or beyond and was confirmed in 2020 when an announcement was made to extend the service lifetime from 2,500 to 3,500 hours on the existing airframes. </item>
+        <item>The Sukhoi Su-37 (Russian: Сухой Су-37; NATO reporting name: Flanker-F; popularly nicknamed \"Terminator\") was a single-seat twin-engine aircraft designed by the Sukhoi Design Bureau that served as a technology demonstrator. It allowed for the need to enhance pilot control of the Su-27M (later renamed Su-35), which was a further development of the Su-27. The sole aircraft had originally been built as the eleventh Su-27M (T10M-11) by the Komsomolsk-on-Amur Aircraft Production Association before having its thrust-vectoring nozzles installed. In addition, it was modified with updated flight- and weapons-control systems. The aircraft made its maiden flight in April 1996. Throughout the flight-test program, the Su-37 demonstrated its supermanoeuvrability at air shows, performing manoeuvres such as a 360-degree somersault. The aircraft crashed in December 2002 due to structural failure. The Su-37 did not enter production; despite a report in 1998 which claimed that Sukhoi had built a second Su-37 using the twelfth Su-27M airframe, T10M-11 remained the sole prototype. Sukhoi had instead applied the aircraft\'s systems to the design bureau\'s other fighter designs. </item>
+        <item>The Lockheed Martin F-35 Lightning II is an American family of single-seat, single-engine, all-weather stealth multirole combat aircraft that is intended to perform both air superiority and strike missions. It is also able to provide electronic warfare and intelligence, surveillance, and reconnaissance capabilities. Lockheed Martin is the prime F-35 contractor, with principal partners Northrop Grumman and BAE Systems. The aircraft has three main variants: the conventional takeoff and landing F-35A (CTOL), the short take-off and vertical-landing F-35B (STOVL), and the carrier-based F-35C (CV/CATOBAR). </item>
+        <item>The Dassault Rafale (French pronunciation: ​[ʁafal], literally meaning \"gust of wind\", and \"burst of fire\" in a more military sense) is a French twin-engine, canard delta wing, multirole fighter aircraft designed and built by Dassault Aviation. Equipped with a wide range of weapons, the Rafale is intended to perform air supremacy, interdiction, aerial reconnaissance, ground support, in-depth strike, anti-ship strike and nuclear deterrence missions. The Rafale is referred to as an \"omnirole\" aircraft by Dassault. </item>
+    </string-array>
+
+    <string-array name="air_craft_info_link">
+        <item>https://en.wikipedia.org/wiki/Sukhoi_Su-30</item>
+        <item>https://en.wikipedia.org/wiki/Mikoyan_MiG-29</item>
+        <item>https://en.wikipedia.org/wiki/Saab_JAS_39_Gripen</item>
+        <item>https://en.wikipedia.org/wiki/McDonnell_Douglas_F-15_Eagle</item>
+        <item>https://en.wikipedia.org/wiki/Sukhoi_Su-34</item>
+        <item>https://en.wikipedia.org/wiki/Fairchild_Republic_A-10_Thunderbolt_II</item>
+        <item>https://en.wikipedia.org/wiki/General_Dynamics_F-16_Fighting_Falcon</item>
+        <item>https://en.wikipedia.org/wiki/Lockheed_Martin_F-22_Raptor</item>
+        <item>https://en.wikipedia.org/wiki/Mikoyan_MiG-31</item>
+        <item>https://en.wikipedia.org/wiki/Sukhoi_Su-37</item>
+        <item>https://en.wikipedia.org/wiki/Lockheed_Martin_F-35_Lightning_II</item>
+        <item>https://en.wikipedia.org/wiki/Dassault_Rafale</item>
+    </string-array>
+
+    <string-array name="air_craft_video_id">
+        <item>RIh_O3gXlE0</item>
+        <item>TXmX0kpNjbc</item>
+        <item>QyD0liioY8E</item>
+        <item>KaK_uSeCJgg</item>
+        <item>yYRphcGADGk</item>
+        <item>NvIJvPj_pjE</item>
+        <item>Zk-u7Bz9K7U</item>
+        <item>YbzX7oGhm8w</item>
+        <item>0iccumMrijc</item>
+        <item>sTSJO9zguQU</item>
+        <item>8B3zOJPYunI</item>
+        <item>Gg4rIxW0mrQ</item>
+    </string-array>
+
+    <string-array name="author_social_media_link">
+        <item>https://www.instagram.com/eldis_senpai/</item>
+        <item>https://github.com/sayapakailinuxpak</item>
+        <item>https://www.facebook.com/eldis.stti</item>
+    </string-array>
+</resources>

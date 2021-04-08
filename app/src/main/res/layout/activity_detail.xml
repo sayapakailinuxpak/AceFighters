@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.DetailActivity">
+        <!--    <com.google.android.material.appbar.AppBarLayout-->
+        <!--        android:layout_width="match_parent"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        android:background="@android:color/transparent"-->
+        <!--        app:elevation="0dp">-->
+        <!--        <com.google.android.material.appbar.MaterialToolbar-->
+        <!--            android:id="@+id/toolbar_detail_activity"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="?attr/actionBarSize"-->
+        <!--            app:elevation="0dp" />-->
+        <!--    </com.google.android.material.appbar.AppBarLayout>-->
+        <ImageView
+            android:id="@+id/image_jumbotron"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:contentDescription="@string/air_craft"
+            android:scaleType="centerCrop"
+            android:src="@drawable/su30"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/text_air_craft_name_on_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/sukhoi_su_30sm"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="18sp"
+            android:fontFamily="@font/opensans_semibold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/image_jumbotron" />
+
+        <TextView
+            android:id="@+id/text_air_craft_desc_on_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="14sp"
+            android:fontFamily="@font/opensans_regular"
+            android:text="@string/the_sukhoi_su_30_russian_30_nato_reporting_name_flanker_c_g_h_is_a_twin_engine_two_seat_supermaneuverable_fighter_aircraft_developed_in_the_soviet_union_by_russia_s_sukhoi_aviation_corporation_it_is_a_multirole_fighter_for_all_weather_air_to_air_and_air_to_surface_deep_interdiction_missions"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_air_craft_name_on_detail" />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/yt_player_view_in_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            app:handleNetworkEvents="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintCircleRadius="@dimen/margin_16"
+            app:layout_constraintTop_toBottomOf="@id/text_air_craft_desc_on_detail"
+            app:showFullScreenButton="false"
+            app:autoPlay="false"
+            tools:layout_editor_absoluteX="16dp" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
