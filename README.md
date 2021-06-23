@@ -5,35 +5,35 @@ My favorite fighter jets from fighter to multirole class :sunglasses:
 
 ## Unit Test Cases
 **MoviewRepository**
-- **getAllMovies_success_notNullReturned()** = 
-- **getAllMovies_success_numberOfMoviesIsEqualToNumberOfDummyMovies()** =
-- **getAllTVs_success_notNullReturned()** =
-- **getAllTVs_success_numberOfTVsIsEqualToNumberOfDummyTVs()** =
-- **getMovieDetailById_success_notNullReturned()** =
-- **getMovieDetailById_success_movieDataIsEqualToDummyMovieData()** =
-- **getTVDetailById_success_notNullReturned()** = 
-- **getTVDetailById_success_tvDataIsEqualToDummyTVData()** =
-- **getAllBookmarkedMovies_success_bookmarkedMoviesNotNullAndSizeIsValid()** =
-- **getAllBookmarkedTVs_success_bookmarkedTVsNotNullAndSizeIsValid()** =
+- **getAllMovies_success_notNullReturned()** = memastikan data movie tidak null
+- **getAllMovies_success_numberOfMoviesIsEqualToNumberOfDummyMovies()** = memastikan jumlah data movie sudah sesuai harapan
+- **getAllTVs_success_notNullReturned()** = memastikan data tv show tidak null
+- **getAllTVs_success_numberOfTVsIsEqualToNumberOfDummyTVs()** = memastikan jumlah data tv show sudah sesuai harapan
+- **getMovieDetailById_success_notNullReturned()** = memastikan data movie detail tidak null
+- **getMovieDetailById_success_movieDataIsEqualToDummyMovieData()** = memastikan data movie detail sudah sesuai harapan 
+- **getTVDetailById_success_notNullReturned()** = memastikan data tv show detail tidak null
+- **getTVDetailById_success_tvDataIsEqualToDummyTVData()** = memastikan data tv show detail sudah sesuai harapan 
+- **getAllBookmarkedMovies_success_bookmarkedMoviesNotNullAndSizeIsValid()** = memastikan data movie favorite tidak null dan jumlahnya sudah sesuai harapan
+- **getAllBookmarkedTVs_success_bookmarkedTVsNotNullAndSizeIsValid()** = memastikan data tv show favorite tidak null dan jumlahnya sudah sesuai harapan
 
 **MovieViewModel**
-- **getAllMovies_success_shouldBeSuccessReturned()** =
-- **getAllMovies_success_butAllMoviesIsEmpty()** = 
-- **getAllMovies_error_shouldBeError()** =
+- **getAllMovies_success_shouldBeSuccessReturned()** = memastikan data movie berhasil didapatkan dan jumlahnya sudah sesuai harapan
+- **getAllMovies_success_butAllMoviesIsEmpty()** = memastikan data movie boleh empty
+- **getAllMovies_error_shouldBeError()** = memastikan data movie error dan menampilkan pesan error sesuai dengan harapan 
 
 **TVShowViewModel**
-- **getAllTVs_success_shouldBeSuccessReturned()** =
-- **getAllTVs_success_butAllTVsIsEmpty()** = 
-- **getAllTVs_error_shouldBeError()** = 
+- **getAllTVs_success_shouldBeSuccessReturned()** = memastikan data tv show berhasil didapatkan dan jumlahnya sudah sesuai harapan 
+- **getAllTVs_success_butAllTVsIsEmpty()** = memastikan data tv show boleh empty
+- **getAllTVs_error_shouldBeError()** = memastikan data tv show error dan menampilkan pesan error sesuai dengan harapan
 
 **DetailViewModel**
-- **getMovieDetailById_success_validMovieReturned()** =
-- **getTVDetailById_success_validTVReturned()** =
+- **getMovieDetailById_success_validMovieReturned()** = memastikan data movie detail tidak null dan sudah sesuai dengan harapan 
+- **getTVDetailById_success_validTVReturned()** = memastikan data tv show detail tidak null dan sudah sesuai dengan harapan
 
 **FavoriteMovieViewModel**
-- **getAllBookmarkedMovies_success_shouldBeSuccessReturned()** = 
-- **getAllBookmarkedMovies_success_butAllMoviesIsEmpty()** =
+- **getAllBookmarkedMovies_success_shouldBeSuccessReturned()** = memastikan data favorite movie berhasil didapatkan dan jumlahnya sudah sesuai dengan harapan 
+- **getAllBookmarkedMovies_success_butAllMoviesIsEmpty()** = memastikan data favorite movie boleh empty
 
 **FavoriteTVViewModel**
-- **getAllBookmarkedTVs_success_shouldBeSuccessReturned()** =
-- **getAllBookmarkedTVs_success_butAllTVsIsEmpty()** =
+- **getAllBookmarkedTVs_success_shouldBeSuccessReturned()** = memastikan data favorite tv show berhasil didapatkan dan jumlahnya sudah sesuai dengan harapan 
+- **getAllBookmarkedTVs_success_butAllTVsIsEmpty()** = memastikan data favorite tv show boleh empty
