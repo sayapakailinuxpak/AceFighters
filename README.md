@@ -65,7 +65,7 @@ My favorite fighter jets from fighter to multirole class :sunglasses:
   - Bookmark tv show detail tersebut
   - Menekan tombol back
 
-- **tc5_testBookmarkMovieFromDetailActivity()
+- **tc5_testBookmarkMovieFromDetailActivity()**
   - Melakukan click pada recyclerview movie di item ke-1
   - Melakukan click pada tombol bookmark
 
