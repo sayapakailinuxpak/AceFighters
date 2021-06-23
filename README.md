@@ -47,21 +47,40 @@ My favorite fighter jets from fighter to multirole class :sunglasses:
   - Scroll recyclerview ke item terakhir
  
 - **tc2_testLoadMovieItemDetail()**
-  - Melakukan klik pada recyclerview movie di item ke-0
+  - Melakukan click pada recyclerview movie di item ke-0
   - Memastikan semua view component movie detail berhasil ditampilkan
   - Bookmark movie detail tersebut
   - Menekan tombol back
   
 - **tc3_testLoadAllTVShowsAsync_checkIsDisplayedAndScrollToLastItem()** 
-  - Melakukan swipe ke kiri pada view pager di HomeActivity
+  - Melakukan click pada tab layout yang memiliki title TV Show
   - Memastikan recyclerview tv show berhasil ditampilkan
   - Memastikan data tv show sudah ditampilkan semua
   - Scroll recyclerview ke item terakhir
 
 - **tc4_testLoadTVShowItemDetail()**
-  - Melakukan klik pada recyclerview tv show item di item ke-0
+  - Melakukan click pada tab layout yang memiliki title TV Show
+  - Melakukan click pada recyclerview tv show di item ke-0
   - Memastikan semua view component tv show detail berhasil ditampilkan
   - Bookmark tv show detail tersebut
   - Menekan tombol back
 
 - **tc5_testBookmarkMovieFromDetailActivity()
+  - Melakukan click pada recyclerview movie di item ke-1
+  - Melakukan click pada tombol bookmark
+
+- **tc6_testBookmarkTVFromDetailActivity()**
+  - Melakukan click pada tab layout yang memiliki title TV Show
+  - Melakukan click pada recyclerview tv show di item ke-1
+  - Melakukan click pada tombol bookmark
+ 
+- **tc7_testDeleteAllBookmarkedMovies()**
+  - Melakukan click pada tombol menu bookmarks
+  - Memastikan recyclerview favorite movie berhasil ditampilkan 
+  - Melakukan click pada tombol menu delete all
+
+- **tc8_testDeleteAllBookmarkedTVs()**
+  - Melakukan click pada tombol menu bookmarks
+  - Melakukan click pada tab layout yang memiliki title TV Show
+  - Memastikan recyclerview favorite tv show berhasil ditampilkan 
+  - Melakukan click pada tombol menu delete all
