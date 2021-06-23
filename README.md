@@ -37,3 +37,31 @@ My favorite fighter jets from fighter to multirole class :sunglasses:
 **FavoriteTVViewModel**
 - **getAllBookmarkedTVs_success_shouldBeSuccessReturned()** = memastikan data favorite tv show berhasil didapatkan dan jumlahnya sudah sesuai dengan harapan 
 - **getAllBookmarkedTVs_success_butAllTVsIsEmpty()** = memastikan data favorite tv show boleh empty
+
+
+## Instrumentation Test Cases
+**HomeActivityTest**
+- **tc1_testLoadAllMoviesAsync_checkIsDisplayedAndScrollToLastItem()**
+  - Memastikan recyclerview movie berhasil ditampilkan
+  - Memastikan data movie berhasil ditampilkan semua
+  - Scroll recyclerview ke item terakhir
+ 
+- **tc2_testLoadMovieItemDetail()**
+  - Melakukan klik pada recyclerview movie di item ke-0
+  - Memastikan semua view component movie detail berhasil ditampilkan
+  - Bookmark movie detail tersebut
+  - Menekan tombol back
+  
+- **tc3_testLoadAllTVShowsAsync_checkIsDisplayedAndScrollToLastItem()** 
+  - Melakukan swipe ke kiri pada view pager di HomeActivity
+  - Memastikan recyclerview tv show berhasil ditampilkan
+  - Memastikan data tv show sudah ditampilkan semua
+  - Scroll recyclerview ke item terakhir
+
+- **tc4_testLoadTVShowItemDetail()**
+  - Melakukan klik pada recyclerview tv show item di item ke-0
+  - Memastikan semua view component tv show detail berhasil ditampilkan
+  - Bookmark tv show detail tersebut
+  - Menekan tombol back
+
+- **tc5_testBookmarkMovieFromDetailActivity()
